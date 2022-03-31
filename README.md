@@ -31,4 +31,4 @@ Elapsed time: 60141.561564 ms
 - Gemm Level 3 BLAS
 ### CUDA
 - Elapsed time 0.007574 ms
-- To increase the "computation-to-memory ratio", the tiled matrix multiplication can be applied. One thread block computes one tile of matrix C. Each thread in the thread block computes one element of the tile.
+- To increase the "computation-to-memory ratio", the tiled matrix multiplication can be applied. One thread block computes one tile of the result matrix. Each thread in the thread block computes one element of the tile.
