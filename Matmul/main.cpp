@@ -117,16 +117,16 @@ int main(int argc, char** argv)
         elapsed += t.toc();
     }
     printf("matmul %lf ms\n", 1000.0 * elapsed / iteration);
-    std::cout << "******naive*******" << '\n';
-    dumpmat(N, N, mat_c);
+    //std::cout << "******naive*******" << '\n';
+    //dumpmat(N, N, mat_c);
     for (int i=0; i<iteration; i++) {
         t.tic();
         cv_mat_c = cv_mat_a * cv_mat_b;
         cv_elapsed += t.toc();
     }
     printf("cv mat mul %lf ms\n", 1000.0 * cv_elapsed / iteration);
-    std::cout << "********opencv*******" << '\n';
-    std::cout << "cv_M = " << std::endl << " "  << cv_mat_c << std::endl << std::endl;
+    //std::cout << "********opencv*******" << '\n';
+    //std::cout << "cv_M = " << std::endl << " "  << cv_mat_c << std::endl << std::endl;
     //printf("******\n");
 
     //dumpmat(100, 100, mat_c);
