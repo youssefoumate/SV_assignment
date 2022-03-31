@@ -8,9 +8,9 @@ Object detection ensemble + matmulti + hangarian algo
 
 ## Libraries
 
-Detectron2 (v0.6), Commit hash code: 6886f85baee349556749680ae8c85cdba1782d8e
-Cuda 11.1
-Opencv (v4.5.5), Commit hash code: e4abf6e723e80133934a0d979dedb61812e9956e
+- Detectron2 (v0.6), Commit hash code: 6886f85baee349556749680ae8c85cdba1782d8e
+- Cuda 11.1
+- Opencv (v4.5.5), Commit hash code: e4abf6e723e80133934a0d979dedb61812e9956e
 
 ## Deep Learning
 - Models used: Faster RCNN, RetinaNet
